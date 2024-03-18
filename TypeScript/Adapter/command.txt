@@ -1,0 +1,3 @@
+npx tsc index.ts --outDir src
+node src/index.js
+rm src -r -force

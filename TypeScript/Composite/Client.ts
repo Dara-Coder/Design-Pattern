@@ -2,7 +2,7 @@ import { Component } from "./Component";
 import { Composite } from "./Composite";
 import { IComponent } from "./IComponent";
 
-export function client()
+export function Client(): string
 {
     const comp: IComponent = new Composite([
         new Component("Morning"),
