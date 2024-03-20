@@ -2,7 +2,7 @@ import { PrototypeA } from "./PrototypeA";
 import { PrototypeB } from "./PrototypeB";
 import { PrototypeManager } from "./PrototypeManager";
 
-export function Client()
+export function Client(): any
 {
     const prototypeA = new PrototypeA("Prototype A");
     const prototypeACloned = new PrototypeManager(prototypeA);
