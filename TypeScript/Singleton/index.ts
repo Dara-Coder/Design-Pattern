@@ -3,9 +3,9 @@ import { Singleton } from "./Singleton";
 const singletonA = Singleton.CreateInstance();
 const singletonB = Singleton.CreateInstance();
 
-singletonA.value = 3;
-singletonB.value = 6;
-singletonA.value = 9;
+singletonA.value.push(3);
+singletonB.value.push(6);
+singletonA.value.push(9);
 
 if(singletonA === singletonB)
 {

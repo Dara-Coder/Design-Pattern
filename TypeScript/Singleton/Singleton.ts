@@ -1,7 +1,7 @@
 export class Singleton
 {
     private static instance: Singleton;
-    public value: number;
+    public value: Array<number> = [];
 
     constructor()
     {}
