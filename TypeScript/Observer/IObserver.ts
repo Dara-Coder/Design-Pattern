@@ -1,4 +1,6 @@
+import { ISubject } from "./ISubject";
+
 export interface IObserver
 {
-    Update(state: string): void;
+    update(subject: ISubject): void;
 }
